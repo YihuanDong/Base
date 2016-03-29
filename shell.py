@@ -3,7 +3,7 @@ import os
 import sys
 
 try:
-    toolName = "search_engine"
+    toolName = "shell"
     
     shellPath =os.path.join(".","shell","shell.py")
     filepath = "python " + shellPath + " " + toolName
