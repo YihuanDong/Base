@@ -85,3 +85,16 @@ Commit contents options
 
 ",,
 shell,07 Apr 2016 00:25:16,['vi'],False,,True,[Error 2] The system cannot find the file specified,,
+shell,07 Apr 2016 00:26:03,"['git', 'add', '-A']",True,add,False,"warning: LF will be replaced by CRLF in 1-A-shell-log.csv.
+The file will have its original line endings in your working directory.
+",,
+shell,07 Apr 2016 00:26:14,"['git', 'commit', '-m', ""'log' ""]",True,commit,False,"[master 515b849] 'log'
+ 1 file changed, 87 insertions(+)
+ create mode 100644 1-A-shell-log.csv
+warning: LF will be replaced by CRLF in 1-A-shell-log.csv.
+The file will have its original line endings in your working directory.
+",,
+shell,07 Apr 2016 00:26:20,"['git', 'push']",True,push,False,"To https://github.com/YihuanDong/Base.git
+   69c9036..515b849  master -> master
+",,
+shell,07 Apr 2016 00:26:37,['quit'],False,,,,,
